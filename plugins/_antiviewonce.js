@@ -12,7 +12,7 @@ export async function before(m, {isAdmin, isBotAdmin}) {
     for await (const chunk of media) {
       buffer = Buffer.concat([buffer, chunk]);
     }
-    const cap = '*😎 MASTER YO LO VEO TODO AQUÍ*'
+    const cap = '🌟 𝚃𝙴𝙽𝙶𝙾 𝙴𝙻 𝙳𝙾𝙽 𝙳𝙴 𝚅𝙴𝚁 𝙵𝙾𝚃𝙾 𝙳𝙴 𝚂𝙾𝙻𝙾 𝚄𝙽𝙰 𝚅𝙴𝚉 😊'
     if (/video/.test(type)) {
       return mconn.conn.sendFile(m.chat, buffer, 'error.mp4', `${msg[type].caption ? msg[type].caption + '\n\n' + cap : cap}`, m);
     } else if (/image/.test(type)) {
