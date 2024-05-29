@@ -5,28 +5,17 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
   const optionsFull = `╭━〔  𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 💫  〕⬣
 ┣☆ !enable welcome
 ┣☆ !disable welcome
-┣☆ !enable public
-┣☆ !disable public
 ┣☆ !enable privado
 ┣☆ !disable privado
-┣☆ !enable juegos
-┣☆ !disable juegos
-┣☆ !enable modohorny
-┣☆ !disable modohorny
 ┣☆ !enable antilink
 ┣☆ !disable antilink
 ┣☆ !enable antilink2
 ┣☆ !disable antilink2
-┣☆ !enable detect
-┣☆ !disable detect
 ┣☆ !enable detect2
 ┣☆ !disable detect2
 ┣☆ !enable restrict
-┣☆ !disable restrict
 ┣☆ !enable autoread
 ┣☆ !disable autoread
-┣☆ !enable audios
-┣☆ !disable audios
 ┣☆ !enable autosticker
 ┣☆ !disable autosticker
 ┣☆ !enable antiviewonce
@@ -35,24 +24,8 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 ┣☆ !disable antitoxic
 ┣☆ !enable reaction
 ┣☆ !disable reaction
-┣☆ !enable antitraba
-┣☆ !disable antitraba
-┣☆ !enable pconly
-┣☆ !disable pconly
-┣☆ !enable gconly
-┣☆ !disable gconly
-┣☆ !enable anticall
-┣☆ !disable anticall
-┣☆ !enable antirabes
-┣☆ !disable antirabes
-┣☆ !enable antirabes2
-┣☆ !disable antirabes
-┣☆ !enable modoadmin
-┣☆ !disable modoadmin
 ┣☆ !enable simsimi
 ┣☆ !disable simsimi
-┣☆ !enable antispam
-┣☆ !disable antispam
 ╰━━━━━━━━━━━━⬣`.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
