@@ -25,7 +25,7 @@ global.lenguajeYL = es //idioma de sakura
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
 global.packname = '𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌸';
 global.author = 'Dɪᴇɢᴏ 🍂';
-global.wm = '𝚂𝙰𝙺𝙸𝚁𝙰 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
+global.wm = '𝚂𝙰𝙺𝚄𝚁𝙰 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
 global.titulowm = '𝗦𝖺𝗄𝗂𝗎𝗋𝖺 : 𝗕𝗈𝗍';
 global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
 global.igfg = 'Diego Oficial';
