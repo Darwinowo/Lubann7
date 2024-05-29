@@ -7,7 +7,7 @@ const handler = async (m, {conn}) => {
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
 m.react('⚙️') 
     const str = `╭━〔  𝐒𝐓𝐀𝐓𝐔𝐒 ✏️  〕⬣
-┃ *Yoshiko Bot - MD* 🚀
+┃ *Sakura Bot Lite - MD* 😊
 ┃
 ┃ *👋🏻 Hola:* ${taguser}
 ┃
