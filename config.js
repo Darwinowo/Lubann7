@@ -48,9 +48,9 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = '' //Grupo Oficial De Sakura
+global.gp1 = https://chat.whatsapp.com/KvFpS69mNuG6MFIhfHCH8J'' //Grupo Oficial De Sakura
 
-global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+global.channel = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //Canal Oficial
 
 global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
 
