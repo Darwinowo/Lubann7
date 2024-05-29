@@ -19,7 +19,7 @@ export async function before(m, {isAdmin, isBotAdmin, isOwner}) {
 
   if (user.warn >= 5) {
     user.warn = 0;
-    await m.reply(`🌟 𝙲𝙰𝙶𝙰𝚂𝚃𝙴𝚂 😊`);
+    await m.reply(`🌟 𝙲𝙰𝙶𝙰𝚂𝚃𝙴𝚂 😊`, false, {mentions: [m.sender]});
     user.banned = true;
     await mconn.conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
     // await this.updateBlockStatus(m.sender, 'block')
