@@ -46,13 +46,13 @@ for (let reward of Object.keys(recompensas)) {
     user[reward] += recompensas[reward]
 texto += `+${recompensas[reward]} ${global.rpgshop.emoticon(reward)}\n`}
 
-let yoshi = `*${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*\n*${minar}*\n*${money} ${global.rpgshop.emoticon('money')}*\n\n🍁 𝗕 𝗢 𝗡 𝗢\n${texto}\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`
-await conn.sendFile(m.chat, pp, 'yoshiko.jpg', yoshi, fkontak)
+let sakuralite = `*${premium ? '🎟️ Recompensa Premium' : '🆓 Recompensa Gratis'}*\n*${minar}*\n*${money} ${global.rpgshop.emoticon('money')}*\n\n🍁 𝗕 𝗢 𝗡 𝗢\n${texto}\n\n🎟️ 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${premium ? '✅' : '❌'}\n${wm}`
+await conn.sendFile(m.chat, pp, 'sakura.jpg', sakitalite, fkontak)
 user.lastcoins = new Date * 1  
 }
 handler.help = ['minar2']
 handler.tags = ['gata']
-handler.command = ['minar2', 'miming2', 'mine2', 'minaryoshicoins', 'minarcoins', 'minaryoshi'] 
+handler.command = ['minar2', 'miming2', 'mine2', 'minarsakucoins', 'minarcoins', 'minaryoshi'] 
 handler.fail = null
 handler.exp = 0
 export default handler
@@ -60,7 +60,7 @@ export default handler
 function msToTime(duration) {
 var milliseconds = parseInt((duration % 1000) / 100),
 seconds = Math.floor((duration / 1000) % 60),
-minutes = Math.floor((duration / (1000 * 60)) % 60),
+minutes = Math.floor((duration / (1000 * 60)) % 60),.
 hours = Math.floor((duration / (1000 * 60 * 60)) % 24)
 
 hours = (hours < 10) ? "0" + hours : hours
