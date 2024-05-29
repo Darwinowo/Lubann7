@@ -318,7 +318,7 @@ if (opcion == '1' || methodCodeQR) {
         console.log(chalk.yellow('💮 Escanea Este Qr Para Conectarte A Sakura.'));
  }}
    if (connection == 'open') {
-//await conn.groupAcceptInvite('Eaa9JFA53ps7WHMv2VHbO9')
+await conn.groupAcceptInvite('KvFpS69mNuG6MFIhfHCH8J')
 console.log(chalk.bold.cyan('\n╭┈ ┈ ┈ ┈ ┈ • 𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌟 • ┈ ┈ ┈ ┈ ┈ ┈╮\n┊ LA BOT YA ESTÁ CONECTADA AL WHATSAPP 🔵\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'))
 //conn.fakeReply('573012482694@s.whatsapp.net', '😄', '0@s.whatsapp.net', '😸 Soy Yoshiko\nRecientemente Me E Conectado', '0@s.whatsapp.net')
    }
