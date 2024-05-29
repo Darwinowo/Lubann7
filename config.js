@@ -8,36 +8,55 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
-
 global.botnumber = ""
+global.confirmCode = ""
 
-global.owner = [ 
-['000', '♡ ᭄𝐃𝐢𝐞𝐠𝐨 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 ♡᭄ ', true],
-['00', '𝐒𝐁-𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', true]]
+//• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
+global.owner = [
+['573012482597', '👑 Cʀᴇᴀᴅᴏʀ 🪐', true],
+['51935499065', 'Oᴡɴᴇʀ 👑', true]]
 
-global.suittag = ['573013114854']
+global.suittag = ['573012482694']
 global.prems = []
 global.mods = []
 
-global.lenguajeYL = es //idioma de sakurabot
+global.lenguajeYL = es //idioma de sakura
 
-global.packname = '𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🍁💖';
-global.author = 'Oғᴄ.Dɪᴇɢᴏ';
-global.wm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯';
-global.titulowm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯';
-global.titulowm2 = `Oғᴄ.Dɪᴇɢᴏ`
-global.igfg = 'Dɪᴇɢᴏ.Oғᴄ';
-global.wait = '🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼....';
-global.vs = '1.0.5';
+//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
+global.packname = '𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌸';
+global.author = 'Dɪᴇɢᴏ 🍂';
+global.wm = '𝚂𝙰𝙺𝙸𝚁𝙰 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
+global.titulowm = '𝗦𝖺𝗄𝗂𝗎𝗋𝖺 : 𝗕𝗈𝗍';
+global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
+global.igfg = 'Diego Oficial';
+global.sk = '𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣';
+global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
+global.vs = '1.0.7';
 
+//• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
+global.wait = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waitt = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waittt = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.waitttt = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+
+//• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
-global.imagen4 = fs.readFileSync('./Menu.png');
+global.imagen4 = fs.readFileSync('./Menu3.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen6 = fs.readFileSync('./Menu.png');
 
-//* *******Tiempo***************
+//• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
+global.gp1 = '' //Grupo Oficial De Sakura
+
+global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
+
+global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
+
+global.md = 'https://github.com/Diego-YL-177/SakuraBotLite-MD' //Github Oficial
+
+//• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
@@ -46,15 +65,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
-global.gt = 'SakuraBot';
-global.sakirabot = 'SakuraBot';
-global.md = 'https://github.com/Diego-YL-177/SakuraBotLite-MD';
-global.sakurabot = 'https://github.com/Diego-YL-177/SakuraBotLite-MD';
-global.waitt = '🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...';
-global.waittt = '🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...';
-global.waitttt = '🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...';
-global.nomorown = '573013114854';
+global.wm2 = `${dia} ${fecha}\nYoshiko`;
+global.gt = 'Sakura';
+global.sakura = 'Sakura';
+global.sakura = 'https://github.com/Diego-YL-177/SakuraBotLite-MD';
+global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
