@@ -43,9 +43,9 @@ global.waitttt = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻�
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
 global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
-global.imagen4 = fs.readFileSync('./Menu3.png');
+global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
-global.imagen6 = fs.readFileSync('./Menu.png');
+global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.gp1 = '' //Grupo Oficial De Sakura
