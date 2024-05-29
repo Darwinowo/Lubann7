@@ -193,33 +193,7 @@ if (!(isAdmin || isROwner || isOwner)) {
 global.dfail('admin', m, conn);
 throw false;
 }
-}
-chat.autosticker = isEnable;
-break;
-case 'audios':
-if (m.isGroup) {
-if (!(isAdmin || isROwner || isOwner)) {
-global.dfail('admin', m, conn);
-throw false;
-}
-}
-chat.audios = isEnable;
-break;
-case 'restrict':
-isAll = true;
-if (!(isROwner || isOwner)) {
-global.dfail('owner', m, conn);
-throw false;
-}
-      bot.restrict = isEnable;
-break;
-case 'audios_bot':
-isAll = true;
-if (!(isROwner || isOwner)) {
-global.dfail('owner', m, conn);
-throw false;
-}
-bot.audios_bot = isEnable;      
+bot.autosticker = isEnable;
 break;
 case 'autoread':
 isAll = true;
@@ -361,16 +335,16 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 }
-await conn.reply(m.chat, `╭━〔  𝐘𝐎𝐒𝐇𝐈𝐊𝐎 𝐁𝐎𝐓 🍄  〕⬣
-┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-┃֪࣪━━━━━━━━━━━━━━━
-┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚈𝙾𝚂𝙷𝙸𝙺𝙾𝙱𝙾𝚃-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰━━━━━━━━━━━━━━━⬣`, fkontak, {
+await conn.reply(m.chat, `╭─⬣「 𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 😊 」⬣
+┃֪࣪💫 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+│━━━━━━━━━━━━━━━
+│🟢 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+│━━━━━━━━━━━━━━━
+│⚙️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰─⬣`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: wm,
-body: `👋 Hola ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
+title: packname,
+body: `🍒 Bienvenido ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
