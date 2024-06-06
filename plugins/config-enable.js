@@ -2,20 +2,31 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
-  const optionsFull = `╭━〔  𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 💫  〕⬣
+  const optionsFull = `╭━〔  𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 🍄  〕⬣
 ┣☆ !enable welcome
 ┣☆ !disable welcome
+┣☆ !enable public
+┣☆ !disable public
 ┣☆ !enable privado
 ┣☆ !disable privado
+┣☆ !enable juegos
+┣☆ !disable juegos
+┣☆ !enable modohorny
+┣☆ !disable modohorny
 ┣☆ !enable antilink
 ┣☆ !disable antilink
 ┣☆ !enable antilink2
 ┣☆ !disable antilink2
+┣☆ !enable detect
+┣☆ !disable detect
 ┣☆ !enable detect2
 ┣☆ !disable detect2
 ┣☆ !enable restrict
+┣☆ !disable restrict
 ┣☆ !enable autoread
 ┣☆ !disable autoread
+┣☆ !enable audios
+┣☆ !disable audios
 ┣☆ !enable autosticker
 ┣☆ !disable autosticker
 ┣☆ !enable antiviewonce
@@ -24,8 +35,24 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 ┣☆ !disable antitoxic
 ┣☆ !enable reaction
 ┣☆ !disable reaction
+┣☆ !enable antitraba
+┣☆ !disable antitraba
+┣☆ !enable pconly
+┣☆ !disable pconly
+┣☆ !enable gconly
+┣☆ !disable gconly
+┣☆ !enable anticall
+┣☆ !disable anticall
+┣☆ !enable antirabes
+┣☆ !disable antirabes
+┣☆ !enable antirabes2
+┣☆ !disable antirabes
+┣☆ !enable modoadmin
+┣☆ !disable modoadmin
 ┣☆ !enable simsimi
 ┣☆ !disable simsimi
+┣☆ !enable antispam
+┣☆ !disable antispam
 ╰━━━━━━━━━━━━⬣`.trim();
 
 const isEnable = /true|enable|(turn)?on|1/i.test(command);
@@ -166,7 +193,33 @@ if (!(isAdmin || isROwner || isOwner)) {
 global.dfail('admin', m, conn);
 throw false;
 }
-bot.autosticker = isEnable;
+}
+chat.autosticker = isEnable;
+break;
+case 'audios':
+if (m.isGroup) {
+if (!(isAdmin || isROwner || isOwner)) {
+global.dfail('admin', m, conn);
+throw false;
+}
+}
+chat.audios = isEnable;
+break;
+case 'restrict':
+isAll = true;
+if (!(isROwner || isOwner)) {
+global.dfail('owner', m, conn);
+throw false;
+}
+      bot.restrict = isEnable;
+break;
+case 'audios_bot':
+isAll = true;
+if (!(isROwner || isOwner)) {
+global.dfail('owner', m, conn);
+throw false;
+}
+bot.audios_bot = isEnable;      
 break;
 case 'autoread':
 isAll = true;
@@ -308,16 +361,16 @@ default:
 if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: fkontak});
 throw false;
 }
-await conn.reply(m.chat, `╭─⬣「 𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 😊 」⬣
-┃֪࣪💫 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
-│━━━━━━━━━━━━━━━
-│🟢 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
-│━━━━━━━━━━━━━━━
-│⚙️ 𝙿𝙰𝚁𝙰: ${isAll ? '𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
-╰─⬣`, fkontak, {
+await conn.reply(m.chat, `╭━〔  𝐒𝐀𝐊𝐔𝐑𝐀 𝐁𝐎𝐓 🍄  〕⬣
+┃֪࣪🍁 𝙾𝙿𝙲𝙸𝙾𝙽: ${type} 
+┃֪࣪━━━━━━━━━━━━━━━
+┃֪࣪🌳 𝙴𝚂𝚃𝙰𝙳𝙾: ${isEnable ? '𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾' : '𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾'}
+┃֪࣪━━━━━━━━━━━━━━━
+┃֪࣪🌻 𝙿𝙰𝚁𝙰: ${isAll ? '𝚂𝙰𝙺𝚄𝚁𝙰𝙱𝙾𝚃𝙻𝙸𝚃𝙴-𝙼𝙳' : isUser ? '' : '𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃'} 
+╰━━━━━━━━━━━━━━━⬣`, fkontak, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: packname,
-body: `🍒 Bienvenido ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.md}}})} 
+title: titulowm,
+body: `ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🍫̸̷᮫ᨘ۬ׄ߭ᤢꫂꥈ Hola! ` + nombre, previewType: 0, thumbnail: imagen6, sourceUrl: global.yt}}})} 
 
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
 handler.tags = ['group', 'owner'];
