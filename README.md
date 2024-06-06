@@ -63,9 +63,15 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ``` 
 ---------
 
-### Editor Y Propietario De La Bot 🌹⚡️
-<a
-href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="200" height="200" alt="Diego"/></a>
+## 🌟 DESARROLLADORES
+<a href="https://github.com/Diego-YL-177/SakuraBotLite-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Diego-YL-177/SakuraBotLite-MD" /> 
+</a>
 
-### Agradecimiento De La Base. ✨️     
+### ☄️ AGRADECIMIENTOS
 [![BrunoSobrino](https://github.com/BrunoSobrino.png?size=100)](https://github.com/BrunoSobrino) 
+
+### 👑 CREADOR 
+<a
+href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="120" height="120" alt="Diego"/></a>
+> Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD)**.
