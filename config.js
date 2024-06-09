@@ -8,30 +8,30 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "51923992455"
+global.confirmCode = "51923992455"
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['573012482597', '👑 Cʀᴇᴀᴅᴏʀ 🪐', true],
-['51935499065', 'Oᴡɴᴇʀ 👑', true]]
+['51900001029', '👑 Cʀᴇᴀᴅᴏʀ darwin 🪐', true],
+['51900001029', 'Oᴡɴᴇʀ darwin 😿👑', true]]
 
-global.suittag = ['573012482694']
+global.suittag = ['51900001029']
 global.prems = []
 global.mods = []
 
-global.lenguajeYL = es //idioma de sakura
+global.lenguajeYL = es //idioma de Suhail 
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗦𝗮𝗸𝘂𝗿𝗮𝗕𝗼𝘁𝗟𝗶𝘁𝗲-𝗠𝗗 🌸';
-global.author = 'Dɪᴇɢᴏ 🍂';
-global.wm = '𝚂𝙰𝙺𝚄𝚁𝙰 𝙱𝙾𝚃 - 𝙼𝙳 🌺';
-global.titulowm = '𝗦𝖺𝗄𝗎𝗋𝖺 : 𝗕𝗈𝗍';
-global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
-global.igfg = 'Diego Oficial';
-global.sk = '𝖲𝖺𝗄𝗎𝗋𝖺𝖡𝗈𝗍𝖫𝗂𝗍𝖾-𝖬𝖣';
-global.team = 'Bʏ: Dɪᴇɢᴏ.Oғᴄ';
-global.vs = '1.0.5';
+global.packname = 'Suhail 🙀';
+global.author = 'Darwin 🍂';
+global.wm = '𝚂uhail 😻';
+global.titulowm = '𝗦uhail : bot';
+global.titulowm2 = `Darwin 𝐎𝐟𝐜`
+global.igfg = 'Darwin Oficial';
+global.sk = '𝖲uhail';
+global.team = 'Bʏ: Darwin.Oғᴄ';
+global.vs = '1.0.1';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
 global.wait = '*🕒 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
@@ -48,13 +48,13 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/KvFpS69mNuG6MFIhfHCH8J' //Grupo Oficial De Sakura
+global.gp1 = 'https://chat.whatsapp.com/Fp1TNqbSDeRDWennUQXyDY' //Grupo Oficial De Suhail
 
-global.channel = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M' //Canal Oficial
+global.channel = 'https://whatsapp.com/channel/0029VaVgZfP1iUxh55RplT2c' //Canal Oficial
 
-global.yt = 'https://www.youtube.com/@Yoshiko_team' //Canal De Youtube
+global.yt = 'https://youtube.com/@camellinn?si=nHaANFlugXGEqEno' //Canal De Youtube
 
-global.md = 'https://github.com/Diego-YL-177/SakuraBotLite-MD' //Github Oficial
+global.md = 'https://github.com/darwinowo/Suhail' //Github Oficial
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -66,10 +66,10 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nYoshiko`;
-global.gt = 'Sakura';
-global.sakura = 'Sakura';
-global.sakura = 'https://github.com/Diego-YL-177/SakuraBotLite-MD';
-global.nomorown = '573012482597';
+global.gt = 'Suhail';
+global.sakura = 'Suhail';
+global.sakura = 'https://github.com/darwinowo/Suhail';
+global.nomorown = '51900001029';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
