@@ -18,7 +18,7 @@
 
 - ### 💻 Instalacion Por Termux
 
-[![blog](https://img.shields.io/badge/Instalacion-Sakura-FFFF00?style=for-the-badge&logo=youtube&logoColor=white)
+[![blog](https://img.shields.io/badge/Instalacion-Suhail-FFFF00?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/9-v4XwMTJYE?si=STdO2GwZR1GAmXfA)
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
