@@ -10,11 +10,11 @@
 
 > Si Deseas Probar el Bot Antes De Instalarlo, Click Abajo.🟢
 
-<a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Sakura-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+<a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Suhail-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 - ### ⚙️ Configuracion
- Clonar Repo : Sakura [Aqui.](https://github.com/darwinowo/Suhail/fork)
+ Clonar Repo : Suhail [Aqui.](https://github.com/darwinowo/Suhail/fork)
 
 - ### 💻 Instalacion Por Termux
 
