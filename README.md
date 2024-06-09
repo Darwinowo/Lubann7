@@ -1,20 +1,20 @@
-> 🚀🌸 Versión Actual: 1.0.5
+> 🙀🌟 Versión Actual: 1.0.1
 
-## Sakura Bot Lite - MD 🌸☄️
+## Suhail🌟☄️😻
 
 <p align="center">
 <img src= "https://telegra.ph/file/8ade574d21b6da82692fa.jpg" alt="Foto" width="900"/>
 </p>
 
-### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba La Bot Aqui
+### <img src="https://i.pinimg.com/originals/19/80/6e/19806e91932e6054965fc83b85241270.gif" alt="Prueba La Bot Aqui" width="42" height="42"> Prueba el Bot Aqui
 
-> Si Deseas Probar La Bot Antes De Instalarlo, Click Abajo.🟢
+> Si Deseas Probar el Bot Antes De Instalarlo, Click Abajo.🟢
 
 <a href="https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9"><img alt="☄️ Grupo WhatsApp" src="https://img.shields.io/badge/Grupo-Sakura-FF00FF?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
 
 - ### ⚙️ Configuracion
- Clonar Repo : Sakura [Aqui.](https://github.com/Diego-YL-177/SakuraBotLite-MD/fork)
+ Clonar Repo : Sakura [Aqui.](https://github.com/darwinowo/Suhail/fork)
 
 - ### 💻 Instalacion Por Termux
 
@@ -32,7 +32,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/Diego-YL-177/SakuraBotLite-MD && cd SakuraBotLite-MD
+git clone https://github.com/darwinowo/Suhail && cd Suhail
 ```
 ```bash
 yarn install && npm install
@@ -45,15 +45,15 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd SakuraBotLite-MD
+> cd Suhail 
 > npm start
 ```
 
 - ### 🌻 Obtener Otro Codigo Qr 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd SakuraBotLite-MD
-> rm -rf SakuraSession
+> cd Suhail
+> rm -rf SuhailSession
 > npm start
 ```
 
@@ -73,5 +73,5 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### 👑 CREADOR 
 <a
-href="https://github.com/Diego-YL-177"><img src="https://github.com/Diego-YL-177.png" width="120" height="120" alt="Diego"/></a>
-> Copyright (c) 2024 **[Diego-YL-177](https://github.com/Diego-YL-177/YoshikoBot-MD)**.
+href="https://github.com/darwinowo"><img src="https://github.com/darwinowo.png" width="120" height="120" alt="Darwin"/></a>
+> Copyright (c) 2024 **[darwinowo](https://github.com/darwinowo/Suhail)**.
