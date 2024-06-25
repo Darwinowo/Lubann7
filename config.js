@@ -14,7 +14,7 @@ global.confirmCode = "51923992455"
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
 ['51900001029', '👑 Cʀᴇᴀᴅᴏʀ darwin 🪐', true],
-['51900001029', 'Oᴡɴᴇʀ darwin 😿👑', true]]
+['584141409654', 'Oᴡɴᴇʀ darwin 😿👑', true]]
 
 global.suittag = ['51900001029']
 global.prems = []
@@ -23,13 +23,13 @@ global.mods = []
 global.lenguajeYL = es //idioma de Suhail 
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = 'Suhail 🙀';
+global.packname = 'Lubann7 🙀';
 global.author = 'Darwin 🍂';
-global.wm = '𝚂uhail 😻';
-global.titulowm = '𝗦uhail : bot';
+global.wm = 'Lubann7 😻';
+global.titulowm = 'Lubann7 : bot';
 global.titulowm2 = `Darwin 𝐎𝐟𝐜`
 global.igfg = 'Darwin Oficial';
-global.sk = '𝖲uhail';
+global.sk = 'Lubann7';
 global.team = 'Bʏ: Darwin.Oғᴄ';
 global.vs = '1.0.1';
 
@@ -48,13 +48,13 @@ global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Fp1TNqbSDeRDWennUQXyDY' //Grupo Oficial De Suhail
+global.gp1 = 'https://chat.whatsapp.com/Fp1TNqbSDeRDWennUQXyDY' //Grupo Oficial De Lubann7 
 
 global.channel = 'https://whatsapp.com/channel/0029VaVgZfP1iUxh55RplT2c' //Canal Oficial
 
 global.yt = 'https://youtube.com/@camellinn?si=nHaANFlugXGEqEno' //Canal De Youtube
 
-global.md = 'https://github.com/darwinowo/Suhail' //Github Oficial
+global.md = 'https://github.com/darwinowo/Lubann7' //Github Oficial
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
 global.d = new Date(new Date + 3600000);
@@ -66,9 +66,9 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nYoshiko`;
-global.gt = 'Suhail';
-global.sakura = 'Suhail';
-global.sakura = 'https://github.com/darwinowo/Suhail';
+global.gt = 'Lubann7';
+global.sakura = 'Lubann7';
+global.sakura = 'https://github.com/darwinowo/Lubann7';
 global.nomorown = '51900001029';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
