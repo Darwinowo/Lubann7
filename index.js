@@ -20,7 +20,7 @@ font: 'block',
 align: 'center',
 colors: ['system', 'redBright']
 })
-say(`la mejor bot de whatsapp, by: sakura`, {
+say(`la mejor bot de whatsapp, by: Lubann7`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })
