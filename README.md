@@ -1,6 +1,6 @@
 > 🙀🌟 Versión Actual: 1.0.1
 
-## Suhail🌟☄️😻
+## Lubann7 🌟☄️😻
 
 <p align="center">
 <img src= "https://telegra.ph/file/8ade574d21b6da82692fa.jpg" alt="Foto" width="900"/>
@@ -14,7 +14,7 @@
 
 
 - ### ⚙️ Configuracion
- Clonar Repo : Suhail [Aqui.](https://github.com/darwinowo/Suhail/fork)
+ Clonar Repo : Lubann7 [Aqui.](https://github.com/darwinowo/Suhail/fork)
 
 - ### 💻 Instalacion Por Termux
 
@@ -45,27 +45,27 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd Suhail 
+> cd Lubann7 
 > npm start
 ```
 
 - ### 🌻 Obtener Otro Codigo Qr 
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Suhail
+> cd Lubann7 
 > rm -rf SuhailSession
 > npm start
 ```
 
-- ### 🚀 Usar SakuraBot 24/7 En Termux 
+- ### 🚀 Usar Lubann7 24/7 En Termux 
 ```bash
 > termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
 ---------
 
 ## 🌟 DESARROLLADORES
-<a href="https://github.com/Diego-YL-177/SakuraBotLite-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Diego-YL-177/SakuraBotLite-MD" /> 
+<a href="https://darwinowo /Lubann7/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=darwinowo/Lubann7" /> 
 </a>
 
 ### ☄️ AGRADECIMIENTOS
